@@ -1,0 +1,12 @@
+pandas
+numpy
+requests
+matplotlib
+seaborn
+jupyter
+ipykernel
+
+# Fase de modelagem
+scikit-learn
+statsmodels    # GLM Poisson/Binomial Negativa (steam-modelagem-v2.ipynb)
+torch          # ainda não usado — reservado para o TextCNN

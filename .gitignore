@@ -1,0 +1,39 @@
+# Data checkpoints (pickle) e datasets exportados — grandes, regenerados pelo pipeline
+*.p
+*.tmp
+*.csv
+checkpoints/
+checkpoints_v2/
+checkpoints_v3/
+checkpoints_v4/
+data/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambientes virtuais (caso alguém rode com venv em vez de instalação global)
+.venv/
+venv/
+env/
+
+# Notas e configs locais de ferramentas de desenvolvimento — não é pra compartilhar
+.claude/
+CLAUDE.md
+
+# Editores
+.vscode/
+.idea/
+
+# SO
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentos: o PDF do TCC, o TCC anterior usado como referência (não é meu para redistribuir)
+# e o guia de estudo — material de leitura, não faz parte do pipeline
+docs/
