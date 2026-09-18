@@ -13,7 +13,7 @@ def print_log(*args):
 
 def get_all_app_id():
     # --- COLE A SUA CHAVE DA API DA STEAM AQUI DENTRO DAS ASPAS ---
-    CHAVE_API = "79B27F6453DF41A0BD7B94CC8C56618A" 
+    CHAVE_API = os.environ.get("STEAM_API_KEY", "COLOQUE_SUA_CHAVE_AQUI")
     
     apps_ids = []
     last_appid = 0

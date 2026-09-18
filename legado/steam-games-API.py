@@ -18,7 +18,7 @@ def print_log(*args):
 def get_all_app_id():
     # A API antiga foi descontinuada pela Steam.
     # Usamos a nova (IStoreService), que exige paginação e uma chave API.
-    CHAVE_API = "79B27F6453DF41A0BD7B94CC8C56618A" # <--- SUBSTITUA PELA SUA CHAVE AQUI
+    CHAVE_API = os.environ.get("STEAM_API_KEY", "COLOQUE_SUA_CHAVE_AQUI")  # <--- defina a variável de ambiente STEAM_API_KEY
     
     apps_ids = []
     last_appid = 0
